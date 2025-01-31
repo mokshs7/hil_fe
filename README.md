@@ -20,7 +20,7 @@ To get the application up and running on your local machine, follow these steps:
 Clone the Repository to your local machine: 
 ```
 git clone https://github.com/mokshs7/hil_fe.git
-cd HIL_FE
+cd HIL_FE/my-giphy-app
 ```
 
 2. Install Dependencies:
