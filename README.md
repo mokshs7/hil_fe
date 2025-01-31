@@ -1,8 +1,8 @@
-# GIFinder
+# GIPHY Frontend Challenge
 
 ## Project Overview
 
-This project is a web application that allows users to explore and enjoy a vast collection of GIFs. Powered by the Giphy API, it provides a seamless experience for users to search for GIFs, view trending GIFs, and save their favorites for easy access later. The application is built with React, demonstrating modern web development practices and a responsive design.
+This project is a web application that allows users to explore and enjoy a vast collection of GIFs via the Giphy API. It provides a seamless experience for users to search for GIFs, view trending GIFs, and save their favorites for easy access later. The application is built with React.
 
 ## Features
 
@@ -14,31 +14,42 @@ This project is a web application that allows users to explore and enjoy a vast 
 
 ## Steps to Run
 
-To get GIFinder up and running on your local machine, follow these steps:
+To get the application up and running on your local machine, follow these steps:
 
 1. **Clone the Repository**
-
-Begin by cloning the repository to your local machine:
-Clone the Repository: 
-* git clone <repository-url>
-* cd <HIL_FE>
+Clone the Repository to your local machine: 
+```
+git clone https://github.com/mokshs7/hil_fe.git
+cd HIL_FE
+```
 
 2. Install Dependencies:
-* npm install
+```
+npm install
+```
 
 3. Set Up Environment Variables:
 * Create a .env file in the root directory
 * Add your GIPHY API key:
-VITE_GIPHY_API_KEY=<your_api_key_here>
+```
+VITE_GIPHY_API_KEY=oUqjZwg7Xabeppsamn6SZ5wt6Vq6E36p
+```
 
 4. **Start the Development Server**
 * Run the following command to start the development server:
+```
 npm run dev
+```
 
 5. **To build the application for production**
-* Run npm run build 
+* Run the following command: 
+```
+npm run build 
+```
 This command will create a `dist` directory with production-ready files.
 * You can preview the production build by running:
-Run npm run preview
+```
+npm run preview
+```
 
 
