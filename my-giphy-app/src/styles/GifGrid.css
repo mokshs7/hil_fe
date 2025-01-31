@@ -1,0 +1,23 @@
+.gif-grid-heading {
+    text-align: center;
+    font-size: 32px;
+    margin: 40px 0 20px;
+  }
+.gif-grid-heading svg{
+    padding-right: 5px;
+    width: 32px;
+    height: 32px;
+}
+  
+  .gif-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 0 20px;
+  }
+  
+  .gif-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
